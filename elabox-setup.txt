@@ -7,6 +7,11 @@
 4. make 2 files in /var/tmp 
    - initial.sh ( copy paste contents ) *
    - ela.sh ( copy paste contents ) *
+
+   also run 
+   - chmod +x initial.sh
+   - chmod +x ela.sh
+
 5. shutdown the PI, remove the card , connect the card to mac via cardReader or anything
 
 6. get the name of sdcard/disk using list command

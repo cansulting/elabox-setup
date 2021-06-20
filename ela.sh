@@ -43,6 +43,9 @@ chmod 664 ${ELABOX_HOME}/supernode/carrier/bootstrapd.conf
 ##############################
 
 cd; git clone https://elaboxx:elabox_2020@github.com/cansulting/elabox-companion
+cd elabox-companion
+npm install
+npm run build
 
 ##############################
 # Configure elabox-master

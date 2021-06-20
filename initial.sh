@@ -9,7 +9,7 @@ chown -R elabox:elabox /home/elabox/
 
 sudo -u elabox /var/tmp/ela.sh
 
-cd elabox-companion
+cd /home/elabox/elabox-companion
 rm -rf /var/www/elabox 
 mkdir /var/www/elabox
 cp -R build /var/www/elabox/build

@@ -55,6 +55,7 @@ npm run build
 cd /home/elabox/
 git clone https://elaboxx:elabox_2020@github.com/cansulting/elabox-master
 cd elabox-master
+npm install debug --save
 npm install
 pm2 start index.js --name ebmaster --watch . --time --log /home/elabox/ebmaster.log
 pm2 save

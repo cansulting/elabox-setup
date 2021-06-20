@@ -1,0 +1,21 @@
+######## Creating an Image ( one time ) ##################
+
+0. start fresh with a Pi, sdcard. 
+1. boot Ubuntu Server 20.04 (64-bit) on the sd card
+2. plug it into PI and run 
+3. manually run all the commands from 'new' installation.sh *
+4. make 2 files in /var/tmp 
+   - initial.sh ( copy paste contents )
+   - ela.sh ( copy paste contents )
+
+   also run 
+   - chmod +x initial.sh
+   - chmod +x ela.sh
+5. cd /home/elabox
+6. sudo /var/tmp/initial.sh
+
+* if "Waiting for cache lock..." occurred, try to reboot the system and rerun the command
+
+
+
+

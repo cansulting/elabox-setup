@@ -9,6 +9,7 @@ sudo chmod +x ./installer.sh
 ```
 
 ## Building from source
+make sure you to not install manually yet as it might fail the setup
 ```
 git clone https://github.com/cansulting/elabox-system-tools.git
 cd elabox-system-tools

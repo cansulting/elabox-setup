@@ -1,7 +1,7 @@
 # elabox-setup
 The main repository for installing and building Elabox System
 
-## Pre-built system installation ( Linux arm64 )
+## Pre-built system installer ( Linux arm64 )
 ```
 wget https://storage.googleapis.com/elabox/installer/linux/arm64/installer.sh
 sudo chmod +x ./installer.sh
